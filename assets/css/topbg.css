@@ -1,0 +1,83 @@
+.but{
+  width:30px;
+  height:30px;
+  background:url('../images/rtop.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display:block;
+  position:fixed;
+  z-index: 3;
+  top:0px;
+  right:0px;
+  transition: all 0.5s ease-out,opacity 0.5s ease-out 0.5s;
+  cursor: pointer;
+}
+.but:hover{
+  width:40px;
+  height:40px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.close-btn {
+  position: fixed;
+  top:0px;
+  right:0px;
+  width: 30px;
+  height: 30px;
+  background:url('../images/close.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0;
+  transition: opacity 0.5s ease-out 0.2s;
+}
+#hf{
+  width:100%;
+  height:200px;
+  background:rgba(0,0,0,0.4);
+  display:none;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+#hf .con{
+  width:1200px;
+  height:200px;
+  margin:0 auto;
+  position:relative;
+}
+#hf .con .left{
+  position:absolute;
+  top:70px;
+  left:0px;
+  cursor:pointer;
+}
+#hf .con .right{
+  position:absolute;
+  top:70px;right:
+  0px;cursor:pointer;
+}
+#hf .con .scroll{
+  width:1080px;height:200px;
+  overflow:hidden;
+  margin:0 auto;
+  position:relative;
+}
+#hf .con .scroll .scrollCon{
+  width:1000%;
+  height:200px;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+.scroll .scrollCon ul li{
+  list-style:none;
+  width:240px;
+  height:140px;
+  border:3px solid #fff;
+  float:left;
+  margin-left:12px;
+  margin-right:12px;
+  margin-top:20px;
+  cursor:pointer;
+}
